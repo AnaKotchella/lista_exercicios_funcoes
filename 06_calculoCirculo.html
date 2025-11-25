@@ -8,11 +8,22 @@
     */
 
     //ENTRADA
+    function calcRaio(raio){
+        let A = 3.14 * Math.pow(raio, 2);
+        return A;
+    }
 
+    const raio = Number(prompt(`informe a area que deseja calcular`));
+    const raioC = calcRaio(raio);
 
     //PROCESSAMENTO
+    document.write(`seu calculo é: ${calcRaio(raio)}<br>`)
 
+    function calcP(perimetro){
+        let p = 2 * 3.14 * raio;
+        return p;
+    }
 
-    //SAÍDA
-
+    document.write(`seu calculo é: ${calcP(raio)}`)
+   
 </script>

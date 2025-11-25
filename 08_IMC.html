@@ -7,6 +7,15 @@
 
     //ENTRADA
 
+    let peso = Number(prompt("informe o seu peso"));
+    let altura = Number(prompt("informe a sua altura"));
+
+    function calcImc(peso, altura){
+        imc = peso / altura;
+        return imc
+    }
+
+    document.write(`seu imc calculado corretamente é: ${calcImc(peso, altura)}`)
 
     //PROCESSAMENTO
 
