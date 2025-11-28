@@ -6,10 +6,17 @@
     */
 
     //ENTRADA
+    function temperatura(graus){
+        let F = (9* graus + 160) / 5
 
+        document.write(`sua temperatura convertida em fahrenheit são: ${F}`)
+    }
 
     //PROCESSAMENTO
 
+    let celsius = Number(prompt(`informe uma temperatura em celsius`))
+
+    temperatura(celsius)
 
     //SAÍDA
 

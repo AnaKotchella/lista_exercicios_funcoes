@@ -5,12 +5,20 @@
     *A frase (ou palavra) e a letra devem ser fornecidas pelo usuário.
     */
 
-    //ENTRADA
+      let palavra = prompt("informe uma palavra aleatoria").toUpperCase().trim;
+    let letra = prompt("informe a letra que voce deseja que apareça").toUpperCase().trim;
+    let soma = 0
 
+    function K(letra){
+         Array.from(palavra);
+        for(let letras of palavra){
+            if(letras == letra){
+                soma ++
+            }
+        }
+        return soma
+    }
 
-    //PROCESSAMENTO
-
-
-    //SAÍDA
+ documnet.write(`o total de letras é: ${K(letra, palavra)}`);
 
 </script>

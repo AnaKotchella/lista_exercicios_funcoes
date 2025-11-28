@@ -6,10 +6,15 @@
     */
 
     //ENTRADA
-
+    function temperatura(graus){
+        let C = (graus - 32) * 5 / 9
+        document.write(`Sua temperatura em graus celsius é: ${C}`);
+    }
 
     //PROCESSAMENTO
+    let fahrenheit = Number(prompt(`Informe uma temperatura em Fahrenheit`));
 
+    temperatura(fahrenheit);
 
     //SAÍDA
 
